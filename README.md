@@ -13,6 +13,7 @@ python3 scripts/add_noise.py --text-file input.txt --threshold 0.3 --min-word-le
 The script expects an input text file with a list of sentences (`input.txt`), a threshold and minimum word length. The input text is formated where each sentence is placed in a newline and the words in sentence are separated by a space. The threshold helps randomize the process of adding false start noise to words. In the above example 30% of the words are transformed into false starts. The minimum word length specifies the minimum length of the word to consider for noising.
 
 # Citation
+<pre>
 @inproceedings{Kathania2020,
   author={Hemant Kathania and Mittul Singh and Tamás Grósz and Mikko Kurimo},
   title={Data augmentation using prosody and false starts to recognize non-native children's speech},
@@ -20,3 +21,4 @@ The script expects an input text file with a list of sentences (`input.txt`), a 
   booktitle={Proc. Interspeech 2020},
   pages={To appear}
 }
+</pre>
