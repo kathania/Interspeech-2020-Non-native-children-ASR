@@ -1,3 +1,7 @@
+
+%__author__ = "Hemant Kathania"
+%__copyright__ = "Copyright (c) 2020, Aalto Speech Research"
+
 clc;
 clear all;
 close all;
