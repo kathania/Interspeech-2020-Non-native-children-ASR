@@ -1,6 +1,6 @@
-function speaking-rate_using_stftm(filename, scale)
+function speaking_rate_using_stftm(filename, scale)
 
-[x Fs] = wavread(filename);
+[x Fs] = audioread(filename);
 sent_L = length(x);
 
 %if scale>2|scale<0.5
