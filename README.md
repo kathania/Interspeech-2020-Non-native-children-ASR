@@ -3,7 +3,8 @@ This repository publishes two data augmentation tools used in our INTERSPEECH 20
 - Prosodic augmentation of speech data
 - Adding false start noise to language modeling corpora
 
-To do list
+# Prosody modification
+We provide a script () to modify the prosody parameter (pitch and speaking-rate) of a speech signal. This we have used to augment the original data with prosody modified data for ASR training.
 
 # Adding false start noise to text
 We provide a script (`scripts/add_noise.py`) to add false start noise (e.g. program can be split into pro- program). This noise allows to mimic false starts in a language modeling corpora for speech recognition. An example run of the script is as follows: 
