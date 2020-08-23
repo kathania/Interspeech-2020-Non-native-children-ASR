@@ -1,6 +1,6 @@
 function pitch_modification(filename, semitone)
 
-[x Fs nBits] = wavread(filename);
+[x Fs nBits] = audioread(filename);
 x = x(:);
 sent_L = length(x);
 
