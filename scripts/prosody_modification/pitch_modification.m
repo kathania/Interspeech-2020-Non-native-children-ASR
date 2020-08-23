@@ -80,7 +80,6 @@ j = sqrt(-1);
 for i = 1:Nit
     phi = phase(fft(win.*x_res)) + randn(size(x_res))*0.01*pi;
     % random phase purturbation will reduce some resonance.
-    % added by Yang Lu
     x = xSTFTM.*exp(j*phi); %M-constraint
     x_recon = ifft(x);
     x_res = real(x_recon);
