@@ -16,7 +16,7 @@ while ~feof(FID1)
 pitch_modification(line1, -2);
 
 %%%%%%%%%%%%%%%%%  speaking-rate modification  %%%%%%%%%%%%%%%%%%%%%%
-speaking-rate_using_stftm(line1, 0.8);
+speaking_rate_using_stftm(line1, 0.8);
 
 i=i+1
 end
