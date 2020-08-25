@@ -25,4 +25,4 @@ The script expects an input text file with a list of sentences (`input.txt`), a 
 </pre>
 
 # References
-[1] X. Zhu, G. T. Beauregard, and L. L. Wyse, “Real-time signal es-timation  from  modified  short-time  fourier  transform  magnitudespectra,”IEEE  Transactions  on  Audio,  Speech,  and  LanguageProcessing, vol. 15, no. 5, pp. 1645–1653, 2007.
+[1] X. Zhu, G. T. Beauregard, and L. L. Wyse, “Real-time signal estimation  from  modified  short-time  fourier  transform  magnitudespectra,”IEEE  Transactions  on  Audio,  Speech,  and  LanguageProcessing, vol. 15, no. 5, pp. 1645–1653, 2007.
