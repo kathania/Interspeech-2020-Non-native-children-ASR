@@ -4,7 +4,7 @@ This repository publishes two data augmentation tools used in our INTERSPEECH 20
 - Adding false start noise to language modeling corpora
 
 # Prosody modification
-We provide a script (`scripts/prosody_modification/example.m`) to modify the prosody parameter (pitch and speaking-rate) of a speech signal. In the script you can change the paramter/scale to modify pitch and speaking-rate of a speech signal. This we have used to augment the original data with prosody modified data for ASR training.
+We provide a script (`scripts/prosody_modification/example.m`) to modify the prosody parameter (pitch and speaking-rate) of a speech signal [1]. In the script you can change the paramter/scale to modify pitch and speaking-rate of a speech signal. This we have used to augment the original data with prosody modified data for ASR training.
 
 # Adding false start noise to text
 We provide a script (`scripts/add_noise.py`) to add false start noise (e.g. program can be split into pro- program). This noise allows to mimic false starts in a language modeling corpora for speech recognition. An example run of the script is as follows: 
@@ -23,3 +23,6 @@ The script expects an input text file with a list of sentences (`input.txt`), a 
   pages={To appear}
 }
 </pre>
+
+# References
+[1]. X. Zhu, G. T. Beauregard, and L. L. Wyse, “Real-time signal es-timation  from  modified  short-time  fourier  transform  magnitudespectra,”IEEE  Transactions  on  Audio,  Speech,  and  LanguageProcessing, vol. 15, no. 5, pp. 1645–1653, 2007.
